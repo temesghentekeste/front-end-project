@@ -12,27 +12,44 @@
 
   <body>
     <header id="header">
-      <nav class="navbar navbar-light bg-light" id="nav-bar">
+      <nav class="navbar navbar-dark bg-primary" id="nav-bar">
         <a class="navbar-brand" href="#"
           ><img
             src="https://i.ibb.co/4W8Rqh8/logo-jpg.png"
             id="header-img"
             alt="company logo"
         /></a>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#featured">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#how_it_works">How It Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#pricing">Pricing</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+          <ul class="nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#featured">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how_it_works">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
-    <main>
+    <main class="container-fluid text-center">
+      <h1>Get Cars in 24 hours</h1>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-group">
+            <label for="email"></label>
+          <input class="form-control" type="email" name="email" placeholder="enter your email so we can call you" id="email"/>
+        </div>
+        <input type="submit" id="submit" class="btn btn-success" value="GET STARTED" />
+
+        </form>
+      </div>
+        <div class="col-md-4"></div>
+      </div>
       <section id="featured"></section>
       <section id="how_it_works">
         <div>
